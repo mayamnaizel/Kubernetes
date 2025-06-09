@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: broken-replicaset
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: busybox
+  template:
+    metadata:
+      labels:
+        app: busybox
+    spec:
+      containers:
+        - name: busybox
+          image: busybox
+          command: ["sh", "-c", "echo Hello from the ReplicaSet! && sleep 3600"]
+##apiVersion: apps/v1
+#kind: ReplicaSet
+#metadata:
+  #name: broken-replicaset
+#spec:
+  #replicas: "3"
+  #selector:
+    #matchlabel:
+      #app: busybox
+  #template:
+    #metadata:
+      #labels:
+        #app busybox
+    #spec:
+      #containers:
+        #- name: busybox
+          #image: busybox
+          #command: ["sh", "-c", "echo Hello from the ReplicaSet! && sleep 3600"]
