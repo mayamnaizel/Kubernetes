@@ -44,13 +44,6 @@ This repo is designed to help beginners follow along and try out basic Kubernete
 
 ---
 
-## 🏅 Certification
-
-I successfully completed the **Introduction to Kubernetes** course offered by **The Linux Foundation**.  
-📜 [Add a link to your certificate here if available]
-
----
-
 ## 🛠 Tools Used
 
 - Kubernetes (Minikube or managed cluster)
