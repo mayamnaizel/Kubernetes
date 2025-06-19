@@ -1,14 +1,14 @@
-# 📦 Introduction to Kubernetes
+# Introduction to Kubernetes
 
 This repository contains notes, examples, and resources from my completion of the **[Introduction to Kubernetes](https://training.linuxfoundation.org/training/introduction-to-kubernetes/)** course offered by **The Linux Foundation**.
 
-## 🎓 About the Course
+## About the Course
 
 **Introduction to Kubernetes** is a beginner-friendly course that covers the fundamentals of Kubernetes, the leading container orchestration platform. It provides a practical understanding of how to deploy, manage, and scale containerized applications in a Kubernetes cluster.
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - Kubernetes architecture and key components (Pods, Nodes, Control Plane)
 - Deploying and exposing applications using:
@@ -23,19 +23,25 @@ This repository contains notes, examples, and resources from my completion of th
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 kubernetes-intro/
+
 ├── 01-k8s-basics/ # Key concepts and terminology
+
 ├── 02-deploying-apps/ # Sample deployments & YAML files
+
 ├── 03-services-and-networking/
+
 ├── 04-configs-and-secrets/
+
 ├── 05-storage-and-persistence/
+
 └── README.md
 
 
 ---
 
-## 🚀 Try It Yourself
+## Try It Yourself
 
 This repo is designed to help beginners follow along and try out basic Kubernetes operations using:
 
@@ -44,7 +50,7 @@ This repo is designed to help beginners follow along and try out basic Kubernete
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Kubernetes (Minikube or managed cluster)
 - kubectl
@@ -53,7 +59,7 @@ This repo is designed to help beginners follow along and try out basic Kubernete
 
 ---
 
-## 📚 Resources
+## Resources
 
 - [Kubernetes Documentation](https://kubernetes.io/docs/)
 - [The Linux Foundation Training](https://training.linuxfoundation.org/)
@@ -61,9 +67,6 @@ This repo is designed to help beginners follow along and try out basic Kubernete
 
 ---
 
-
-
----
 
 ## 📬 Contact
 
